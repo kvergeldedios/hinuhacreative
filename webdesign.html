@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title> Hinuha Creative </title>
+		<link rel="stylesheet" href="webdesign.css">
+		<link href="https://fonts.googleapis.com/css?family=Manjari|Montserrat&display=swap" rel="stylesheet">
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Manjari|Montserrat&display=swap'); </style> 
+		<link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="parallax.min.js"></script>
+</head>
+
+<body>
+
+<div class="yellowbg">
+	<a href="index.html"> <img class="logo" src="assets/logohorizontal.png"> </a>
+	<div class="navbar">
+	<nav>
+		<ul>
+			<li><a href="">SERVICES &#x25BC</a>
+				<ul>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="webdesign.html">Web Development</a></li>
+				</ul>
+			</li>
+			<li><a href="blog">BLOG</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="index.html #contact">CONTACT US</a></li>
+		</ul>
+	</nav>
+	</div>
+
+
+
+<!--FIXED NAV BAR ON SCROLL-->
+
+<div id="fixednavbar">
+	<div class="navbg"></div>
+	<section class="logohorizontal" >
+		<a href="index.html"> <img src="assets/logohorizontal.png" width="50%"> </a>
+	</section>
+
+	<section class="menuelements">
+		<nav>
+		<ul>
+			<li><a href="">SERVICES &#x25BC</a>
+				<ul>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="webdesign.html">Web Development</a></li>
+				</ul>
+			</li>
+			<li><a href="blog">BLOG</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="index.html #contact">CONTACT US</a></li>
+		</ul>
+		</nav>
+	</section>
+</div>
+
+
+<script>
+// When the user scrolls down 200px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 200) {
+    document.getElementById("fixednavbar").style.top = "0";
+  } else {
+    document.getElementById("fixednavbar").style.top = "-130px";
+  }
+}
+
+$('.parallax').parallax({imageSrc: 'assets/parallax.jpg'})
+</script>
+</div>
+
+<!--END OF FIXED NAV BAR-->
+
+<h1 style="text-align: center; font-size: 30px; margin-top: 100px; color: #4056A1"> Digital Design and Web Development </h1>
+
+<div class="html">
+	<section style="width: 50%; height: 900px; position: relative; float: left">
+		<img src="assets/html.png" width="133%" style="position: relative; top: -140px; left: -100px" alt="html, mozilla">
+	</section>
+
+	<section style="width: 50%; position: relative; float: left">
+	<h2 style="font-size: 25px"> What's New in HTML </h2>
+	<p style="font-size: 20"> HTML, or Hypertext Markup Language, is the language used for documents designed to be displayed on web. They are made up of codes that, when received by a web browser, are returned and rendered as web pages. <br> <br>
+
+	The World Wide Consortium is the international organization that sets the standards for the world wide web. They have recently release the latest evolution for HTML coding and it is called HTML5.<br> <br>
+
+	HTML5 features a new and effective way to classify web contents. They are called <strong> semantic elements</strong>.
+	How it works is that elements are wrapped around tags that indicate what they are, rather than how they may appear in the browser. <br> <br>
+
+	This website used this feature. Tags such as &lt;nav&gt;, &lt;section&gt;, &lt;div&gt;, and &lt;strong&gt; are used in some of the elements to make the information in each page as presentable as possible. <br> <br>
+
+	Take a look at the HTML codes below which was used to build the navigation bar used in this web page:
+<pre>
+&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="services.html"&gt;SERVICES&lt;/a&gt;
+    &lt;li&gt;&lt;a href="blog"&gt;BLOG&lt;/a&gt;
+    &lt;li&gt;&lt;a href="about.html"&gt;ABOUT&lt;/a&gt;
+    &lt;li&gt;&lt;a href="index.html"&gt;INDEX&lt;/a&gt;
+  &lt;ul&gt;
+&lt;nav&gt;
+</pre> </p>
+	</section>
+</div>
+
+<div class="css" style="color: white">
+	<section style="width: 42%; position: relative; float: left; margin-top: 40px">
+	<h2 style="font-size: 25px"> CSS Tricks </h2>
+	<p style="font-size: 20"> CSS, or Cascading Style Sheet, brings life to plain HTML pages. It is the language used to style and lay out web pages, specifically the font size, color, image size, spacing between contents, or add animation and many other decorative features. <br> <br>
+
+	This website used simple CSS tricks to make it appealing to the user's eyes. Elements such as font style, size, and color were carefully coded in CSS to ensure easy readability. Special effects such as opacity transition during mouse hover on buttons were also an added feature of each web page. Images were adjusted using simple codes, while the navigation bar layout was created using complex tags, alongside a few scripts from Javascript. The contact form in the home page was also made using HTML and CSS.<br> <br>
+
+	While CSS can be complex, the most sophisticated web styles are made using a very simple string of CSS codes, combined with other programming languages. With CSS, the possibilities are endless.
+	</p>
+	</section>
+
+	<section style="width: 50%; height: 900px; position: relative; float: left">
+		<img src="assets/css.png" width="60%" style="position: relative; margin-top: 60px; margin-right: 165px" alt="css, mozilla">
+	</section>
+</div>
+
+<div class="cssjava">
+	<div class="parallax" data-parallax="scroll" data-image-src="assets/parallax.jpg">
+	<div class="parallaxtext">
+		<h2> Relax! It's Parallax! </h2>
+		<p> Amazing, isn't it? The image on the background moves slowly as you scroll up and down the page. It's called the parallax effect, which is becoming more and more popular in modern websites. <br> <br>
+
+		For new web developers, this would look hard to code, but it is actually very easy. With the use of Javascript and JQuery, this effect is only made of less than 10 lines of codes. That is how powerful HTML, CSS, and Javascript when combined. </p>
+	</div>
+</div>
+
+<div class="javascript">
+	<section style="width: 42%; position: relative; float: left; margin-top: 40px">
+	<h2 style="font-size: 25px"> Javascript and other Languages </h2>
+	<p style="font-size: 20"> Javascript is the industry standard in creating interactive web pages, alongside CSS and Javascript. <br> <br>
+
+	Like any other scripting language, Javascript uses codes to generate function. Simple scripts produces sophisticated effects and functions, but more complex string of codes can make a website powerful. <br> <br>
+
+	Take a look at the navigation bar on this website. A few codes were used to make it pop down of the screen when the page is scrolled. Simple effect, but it gives the web page a professional feel. <br> <br>
+
+	Aside from Javascript, there are other languages to support web development. Bootstrap, a free and open-source framework, offers responsive features and mobile optimized styles. JQuery, also a free frameowrk, allows developers to write Javascripts easily.
+	</p>
+	</section>
+
+	<section style="width: 40%; height: 900px; position: relative; float: left; left: 90px; top: 70px">
+		<img src="assets/js.png" width="60%" style="position: relative; margin-top: 60px; margin-right: 165px" alt="css, mozilla">
+	</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- END OF CODING -->
+<!-- FOOTER -->
+
+	<footer>
+	<div class="footer1" style="color: white">
+		<img class="portrait" src="assets/imagefooter.png" width="41%" style="margin-left: 360px">
+		<p id="footertext"> Designed, illustrated, and developed by Kier Vergel de Dios. <br> Created using HTML, CSS, and Javascript. <br> In fulfillment of the term requirement for HNC in UX-Design and Front-End Development, <br> Dublin Institute of Design, Dublin Ireland. </p>
+	</div>
+
+	<div class="footer2">
+		<p id="footertextright"> SERVICES </p>
+		<p id="footertextright"> Graphic Design and Digital Illustration </p>
+		<p id="footertextright"> Digital Design and Web Development </p>
+		<br> <br>
+
+		<p id="footertextright"> BLOG </p> <br> <br>
+		<p id="footertextright"> ABOUT </p> <br> <br>
+		<p id="footertextright"> CONTACT US </p> <br> <br>
+	</div>
+</footer>
+
+</body>
+</html>

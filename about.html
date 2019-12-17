@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title> Hinuha Creative </title>
+		<link rel="stylesheet" href="about.css">
+		<link href="https://fonts.googleapis.com/css?family=Manjari|Montserrat&display=swap" rel="stylesheet">
+		<style>
+@import url('https://fonts.googleapis.com/css?family=Manjari|Montserrat&display=swap');
+</style> 
+		<link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="yellowbg">
+	<a href="index.html"> <img class="logo" src="assets/logohorizontal.png"> </a>
+	<div class="navbar">
+	<nav>
+		<ul>
+			<li><a href="">SERVICES &#x25BC</a>
+				<ul>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="webdesign.html">Web Development</a></li>
+				</ul>
+			</li>
+			<li><a href="blog">BLOG</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="index.html #contact">CONTACT US</a></li>
+		</ul>
+	</nav>
+	</div>
+
+
+
+<!--FIXED NAV BAR ON SCROLL-->
+
+<div id="fixednavbar">
+	<div class="navbg"></div>
+	<section class="logohorizontal" >
+		<a href="index.html"> <img src="assets/logohorizontal.png" width="50%"> </a>
+	</section>
+
+	<section class="menuelements">
+		<nav>
+		<ul>
+			<li><a href="">SERVICES &#x25BC</a>
+				<ul>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="webdesign.html">Web Development</a></li>
+				</ul>
+			</li>
+			<li><a href="blog">BLOG</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="index.html #contact">CONTACT US</a></li>
+		</ul>
+		</nav>
+	</section>
+</div>
+
+
+<script>
+// When the user scrolls down 200px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 200) {
+    document.getElementById("fixednavbar").style.top = "0";
+  } else {
+    document.getElementById("fixednavbar").style.top = "-130px";
+  }
+}
+</script>
+</div>
+
+
+<h1 style="text-align: center; font-size: 30px; margin-top: 100px; color: #4056A1"> About Us </h1>
+
+<div class="aboutpage">
+	<section style="width: 50%;  position: relative; float: left">
+		<img src="assets/kier.jpg" width="95%" style="position: relative; left: 5px; top: 25px">
+	</section>
+
+	<section style="width: 45%; position: relative; float: left; left: 50px; margin-bottom: 130px">
+	<h2 style="font-size: 25px; text-align: left; line-height: 30px"> Kier Vergel de Dios is a Filipino nurse, <br> self-taught artist, and is the founder <br> of Hinuha Creative. </h2>
+
+	<section class="socialmedia">
+	<a href="https://www.facebook.com/kiervergeldedios" class="fa fa-facebook"></a>
+	<a href="https://www.instagram.com/kier.vergeldedios/" class="fa fa-instagram"></a>
+	<a href="https://www.youtube.com/channel/UCyho2G2o5LAVTgS7FUwOPIg?view_as=subscriber" class="fa fa-youtube"></a>
+	</section>
+
+
+	<br> <p> For seven years, he has worked as a healthcare professional, and now, he ventures into the world of Visual and Graphic Arts, making art projects for friends, family, and acquaintances. With no formal art training, he explored his art potentials through self-help guides. <br> <br>
+
+	Today, he continuously hones his craft in watercolor portraits, digital cartoon, and corporate media art. He is currently studying at the Dublin Institute of Design taking up HNC in UX Design and Front-End Development. </p>
+
+	<button class="website" onclick="window.location.href = 'https://kvergeldedios.wixsite.com/artportfolio';"> MY PORTFOLIO </button>
+	</section>
+
+	
+	
+</div>
+
+
+
+
+
+
+	<footer>
+	<div class="footer1" style="color: white">
+		<img class="portrait" src="assets/imagefooter.png" width="41%" style="margin-left: 360px">
+		<p id="footertext"> Designed, illustrated, and developed by Kier Vergel de Dios. <br> Created using HTML, CSS, and Javascript. <br> In fulfillment of the term requirement for HNC in UX-Design and Front-End Development, <br> Dublin Institute of Design, Dublin Ireland. </p>
+	</div>
+
+	<div class="footer2">
+		<p id="footertextright"> SERVICES </p>
+		<p id="footertextright"> Graphic Design and Digital Illustration </p>
+		<p id="footertextright"> Digital Design and Web Development </p>
+		<br> <br>
+
+		<p id="footertextright"> BLOG </p> <br> <br>
+		<p id="footertextright"> ABOUT </p> <br> <br>
+		<p id="footertextright"> CONTACT US </p> <br> <br>
+	</div>
+</footer>
+
+</body>
+</html>

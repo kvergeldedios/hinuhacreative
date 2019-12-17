@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title> Hinuha Creative </title>
+		<link rel="stylesheet" href="graphicdesign.css">
+		<link href="https://fonts.googleapis.com/css?family=Manjari|Montserrat&display=swap" rel="stylesheet">
+		<style>
+@import url('https://fonts.googleapis.com/css?family=Manjari|Montserrat&display=swap');
+</style> 
+		<link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico"/>
+</head>
+
+<body>
+
+<div class="yellowbg">
+	<a href="index.html"> <img class="logo" src="assets/logohorizontal.png"> </a>
+	<div class="navbar">
+	<nav>
+		<ul>
+			<li><a href="">SERVICES &#x25BC</a>
+				<ul>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="webdesign.html">Web Development</a></li>
+				</ul>
+			</li>
+			<li><a href="blog">BLOG</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="index.html #contact">CONTACT US</a></li>
+		</ul>
+	</nav>
+	</div>
+</div>
+
+
+
+<!--FIXED NAV BAR ON SCROLL-->
+
+<div id="fixednavbar">
+	<div class="navbg"></div>
+	<section class="logohorizontal" >
+		<a href="index.html"> <img src="assets/logohorizontal.png" width="50%"> </a>
+	</section>
+
+	<section class="menuelements">
+		<nav>
+		<ul>
+			<li><a href="">SERVICES &#x25BC</a>
+				<ul>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="webdesign.html">Web Development</a></li>
+				</ul>
+			</li>
+			<li><a href="blog">BLOG</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="index.html #contact">CONTACT US</a></li>
+		</ul>
+		</nav>
+	</section>
+
+<script>
+// When the user scrolls down 200px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 200) {
+    document.getElementById("fixednavbar").style.top = "0";
+  } else {
+    document.getElementById("fixednavbar").style.top = "-130px";
+  }
+}
+</script>
+
+</div>
+
+
+
+
+<!-- NEW CODE HERE -->
+<div>
+<h1 style="text-align: center; font-size: 30px; margin-top: 100px; color: #4056A1"> Graphic Design and Digital Illustration </h1>
+
+<div class="box1" style="text-align: left">
+	<section style="width: 50%; position: relative; float: left">
+		<img src="assets/jpegsample.jpg" width="50%" style="position: relative; left: 280px; top: 30px">
+	</section>
+
+	<section style="width: 30%; position: relative; float: left; margin-top: 80px">
+	<h2 style="font-size: 25px"> JPEG Illustration </h2>
+	<p style="font-size: 20"> JPEG/JPG is the best and the most common image format for web. In fact, most digital cameras and smartphones save photos as JPEG. <br> <br> We create digital illustrations on JPEG format. <br> Contact us for more information. </p>
+</section>
+</div>
+
+
+<div class="box2" style="text-align: right">
+	<section style="width: 30%; position: relative; float: left; margin-top: 80px; left: 210px">
+	<h2 style="font-size: 25px"> PNG Illustration </h2>
+	<p style="font-size: 20"> PNG format, or Portable Network Graphics, is a lossless compression file format, which makes it a common choice for use on the Web. <br> <br> PNG is a good choice for storing line drawings, text, and iconic graphics at a small file size. </p> </section>
+
+	<section style="width: 50%; position: relative; float: right">
+		<img src="assets/pngsample.png" width="80%" style="position: relative;  top: 100px; right: 150px">
+	</section>
+</div>
+
+
+
+<div class="box3">
+	<section style="width: 50%; position: relative; float: left">
+		<img src="assets/svgsample.svg" width="50%" style="position: relative; left: 280px; bottom: 60px">
+	</section>
+
+	<section style="width: 30%; position: relative; float: left; margin-top: -5px">
+	<h2 style="font-size: 25px"> SVG Illustration </h2>
+	<p style="font-size: 20"> SVG, or <strong> Scalable Vector Graphics </strong>, are an XML based markup that can contain two-dimensional vectors. The vectors can be simple shapes, paths, or well just about anything you can do in Illustrator. It's an image format that has more in common with a web page that it does with a JPEG. <br> <br> We create SVGs! Contact us for more details. </p>
+</section>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+	<footer>
+	<div class="footer1" style="color: white">
+		<img class="portrait" src="assets/imagefooter.png" width="41%" style="margin-left: 360px">
+		<p id="footertext"> Designed, illustrated, and developed by Kier Vergel de Dios. <br> Created using HTML, CSS, and Javascript. <br> In fulfillment of the term requirement for HNC in UX-Design and Front-End Development, <br> Dublin Institute of Design, Dublin Ireland. </p>
+	</div>
+
+	<div class="footer2">
+		<p id="footertextright"> SERVICES </p>
+		<p id="footertextright"> Graphic Design and Digital Illustration </p>
+		<p id="footertextright"> Digital Design and Web Development </p>
+		<br> <br>
+
+		<p id="footertextright"> BLOG </p> <br> <br>
+		<p id="footertextright"> ABOUT </p> <br> <br>
+		<p id="footertextright"> CONTACT US </p> <br> <br>
+	</div>
+</footer>
+
+</body>
+</html>

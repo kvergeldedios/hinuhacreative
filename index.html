@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title> Hinuha Creative </title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Manjari|Montserrat&display=swap" rel="stylesheet">
+		<style>
+@import url('https://fonts.googleapis.com/css?family=Manjari|Montserrat&display=swap');
+</style> 
+		<link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico"/>
+</head>
+
+<body>
+
+<div class="yellowbg">
+	<img class="logo" src="assets/logo.png" width="17%">
+
+	<div class="navbar">
+	<nav>
+		<ul>
+			<li><a href="">SERVICES &#x25BC</a>
+				<ul>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="webdesign.html">Web Development</a></li>
+				</ul>
+			</li>
+			<li><a href="blog">BLOG</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="#contact">CONTACT US</a></li>
+		</ul>
+	</nav>
+	</div>
+
+
+<--FIXED NAV BAR ON SCROLL-->
+
+<div id="fixednavbar">
+	<div class="navbg"></div>
+	<section class="logohorizontal">
+		<img src="assets/logohorizontal.png" width="50%">
+	</section>
+
+	<section class="menuelements">
+		<nav>
+		<ul>
+			<li><a href="">SERVICES &#x25BC</a>
+				<ul>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
+				<li><a href="webdesign.html">Web Development</a></li>
+				</ul>
+			</li>
+			<li><a href="blog">BLOG</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="#contact">CONTACT US</a></li>
+		</ul>
+		</nav>
+	</section>
+</div>
+
+
+<script>
+// When the user scrolls down 200px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 200) {
+    document.getElementById("fixednavbar").style.top = "0";
+  } else {
+    document.getElementById("fixednavbar").style.top = "-130px";
+  }
+}
+</script>
+
+<!--END OF FIXED NAV BAR-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+	<h1> Hinuha Creative <span style="font-weight: 200">now offers digital design consultancy and web development. </span> </h1>
+
+	<button class="knowmore" onclick="window.location.href = 'webdesign.html';"> KNOW MORE </button>
+</div>
+</div>
+
+<div style="text-align: center">
+	<h2> What can we do for you today? </h2>
+
+	<section class="cartoongraphics">
+		<img src="assets/cartoongraphics.png" width="85%">
+		<h3> Graphic Design and <br> Digital Illustration </h3>
+		<p> In Hinuha, we are skilled and experienced <br> in making your imagination come to life. </p>
+
+		<button class="portfolio" onclick="window.location.href = 'graphicdesign.html';"> PORTFOLIO </button>
+	</section>
+
+
+	<section class="cartooncode">
+		<img class="illuscode" src="assets/cartooncode.png" width="105%">
+		<h4> Digital Design and <br> Web Development </h4>
+		<p id="adjust"> Your web and graphic needs. <br> We got you covered. </p>
+		<button class="webtags" onclick="window.location.href = 'webdesign.html';"> WHAT WE DO </button>
+	</section>
+</div>
+
+
+<div class="blogsection" style="text-align: center">
+	<section class="blogcontainer">
+		<h5> Blog Posts </h5>
+		<p id="blogp"> Find out what our team has to say about the latest <br> in art, tech, and design. </p>
+		<button class="blogbutton" onclick="window.location.href = 'contactus';"> READ MORE </button>
+	</section>
+</div>
+
+
+
+
+<div id="contact">
+	<h6> Contact Us </h6>
+	<p> For inquiries, you can reach us at +353 1 2345 or <br> send as an e-mail using the contact form below. </p>
+	<section class="container">
+		<form action="mailto:kvergeldedios@gmail.com" method="post" enctype="text/plain">
+
+		<label for="fname"> Full Name </label> <br>
+		<input type="text" id="fname" name="firstname" placeholder="Type your full name here."> <br>
+
+		<label for="email"> E-mail </label> <br>
+		<input type="text" id="email" name="email" placeholder="Type your e-mail here."> <br>
+
+		<label for="reason"> Reason for contact </label> <br>
+		<select id="reason" name="reason">
+			<option value="jobinquiry"> Job inquiry </option>
+			<option value="jobplacements"> Job Placements </option>
+			<option value="quotation"> Quotation </option>
+			</select> <br>
+
+		<label for="subject"> Subject </label> <br>
+		<textarea id="subject" name="subject" placeholder="Write your inquiry here." style="height:200px"></textarea>
+
+	<section style="text-align: center">
+		<input type="submit" value="SUBMIT">
+	</section>
+		</form>
+	</section>
+
+
+</div>
+
+
+
+
+<div class="about" style="text-align: center">
+	<section style="margin-right: 60px; margin-top: 150px">
+	<img src="assets/kier.png" width="50%">
+	</section>
+
+	<section style="margin-right: 60px; margin-top: -50px;">
+	<h6 style="font-size: 30px"> About Us </h6>
+	<p id="aboutp"> Hinuha is a Filipino word for 'inference'. <br> Know more about our company and what drives us <br> to make our craft better everyday. </p>
+	<button class="aboutbutton" onclick="window.location.href = 'about.html';"> MORE INFO </button>
+	</section>
+</div>
+
+</body>
+
+<footer>
+	<div class="footer1" style="color: white">
+<img class="portrait" src="assets/imagefooter.png" width="41%" style="margin-left: 360px">
+		<p id="footertext"> Designed, illustrated, and developed by Kier Vergel de Dios. <br> Created using HTML, CSS, and Javascript. <br> In fulfillment of the term requirement for HNC in UX-Design and Front-End Development, <br> Dublin Institute of Design, Dublin Ireland. </p>
+	</div>
+
+	<div class="footer2">
+		<p id="footertextright"> SERVICES </p>
+		<p id="footertextright"> Graphic Design and Digital Illustration </p>
+		<p id="footertextright"> Digital Design and Web Development </p>
+		<br> <br>
+
+		<p id="footertextright"> BLOG </p> <br> <br>
+		<p id="footertextright"> ABOUT </p> <br> <br>
+		<p id="footertextright"> CONTACT US </p> <br> <br>
+	</div>
+</footer>
+
+</body>
+</html>
