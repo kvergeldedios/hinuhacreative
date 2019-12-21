@@ -304,3 +304,11 @@ pre {
 	text-align: right;
 	padding-left: 8%;
 }
+
+.seo {
+	line-height: 25px;
+	background-color: #ebebf0;
+	height: 496px;
+	float: left;
+	margin-bottom: 120px;
+}
